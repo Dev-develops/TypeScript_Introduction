@@ -1,0 +1,17 @@
+{
+  "name": "beginnerproject",
+  "version": "0.1.0",
+  "description": "This is the first project of TypeScript and is meant to cover all the fundamentals of the language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Typescript"
+  ],
+  "author": "Devendra Pratap Sinigh",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.3.2"
+  }
+}
