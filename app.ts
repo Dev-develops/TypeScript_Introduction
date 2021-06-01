@@ -1,0 +1,1 @@
+let hello: string  = "hello This is Devendra Pratap Singh"; 
