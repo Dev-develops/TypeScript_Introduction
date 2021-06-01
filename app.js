@@ -1,1 +1,1 @@
-var hello = "hello This is Devendra Pratap Singh";
+let hello = "hello This is Devendra Pratap Singh";
