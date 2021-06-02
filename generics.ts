@@ -19,3 +19,13 @@ let a = identityGenerics("Devendra");
 let b = identityGenerics<string>("Test");
 
 // the type defined explicitly to a generic function must have the same type as the one declared inside.
+
+// Generic Interfaces And Inheritances
+interface genericInterface<T> {
+    (arg: T): T;
+}
+
+class GenericClass<T> {
+    zeroValue: T;
+    add: (x: T, y: T) => T;
+}

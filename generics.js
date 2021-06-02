@@ -13,4 +13,5 @@ function identityGenerics(args) {
 }
 let a = identityGenerics("Devendra");
 let b = identityGenerics("Test");
-// the type defined explicitly to a generic function must have the same type as the one declared inside.
+class GenericClass {
+}
