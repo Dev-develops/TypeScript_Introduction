@@ -12,10 +12,15 @@ class NewEmployee extends abstractEmployee {
 }
 class newManager extends NewEmployee {
     getDetails() {
-        return super.getDetails() + `, Employee Count ${this.Employees}`;
+        return super.getDetails() + `, Employee Count ${this.Employees.length}`;
     }
 }
 let employee = new NewEmployee();
 employee.id = 1;
 employee.name = 'Employee Name';
 employee.printDetails();
+let manager = new newManager();
+manager.id = 2;
+manager.name = "New Manager";
+manager.Employees = [];
+manager.printDetails();
