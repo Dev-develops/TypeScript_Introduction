@@ -9,3 +9,13 @@ interface iComplexType {
 
 let complexVariable : iComplexType = {id: 1, name: 'Devendra'};
 // both the variables must be present otherwise the errors are thrown
+
+// Readonly Interface
+
+interface Point {
+    x: number;
+    y: number;
+}
+
+let point : Point = { x: 2, y: 2};
+point.x = 4;
