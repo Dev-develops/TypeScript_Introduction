@@ -1,5 +1,11 @@
+// Compiling file rules are defined here.
+
 {
     "compilerOptions": {
+        "module": "CommonJS",
         "target": "ES6"
-    }
+    },
+    "files": [
+        "core.ts"
+    ]
 }
