@@ -30,3 +30,22 @@ class derivedClassWithConstructor extends baseClassWithConstructor{
         this.name = _name;
     }
 }
+
+// Protected Class Members
+class testProtectedClass {
+    protected id: number;
+
+    public getId() {
+        return this.id;
+    }
+}
+
+class DerivedFromProtected extends testProtectedClass {
+    constructor () {
+        super();
+        this.id = 0;
+    }
+}
+
+let DerivedFromProtectedInstance = new DerivedFromProtected();
+// DerivedFromProtected.id = 10; protected id cannot be accessed from outside the class.
