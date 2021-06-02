@@ -1,3 +1,3 @@
-import { abc } from "./modules";
+import { cdf as alias } from "./modules";
 
-let myAbc = new abc("Devendra", 2);
+let myAbc = new alias("Devendra", 2);

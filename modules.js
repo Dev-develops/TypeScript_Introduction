@@ -1,5 +1,5 @@
 // Introduction to Modules
-export class abc {
+class abc {
     constructor(_a, _b) {
         this._a = _a;
         this._b = _b;
@@ -7,3 +7,4 @@ export class abc {
         this.b = _b;
     }
 }
+export { abc as cdf };

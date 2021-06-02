@@ -1,6 +1,6 @@
 // Introduction to Modules
 
-export class abc {
+class abc {
     a: string;
     b: number;
 
@@ -9,3 +9,5 @@ export class abc {
         this.b = _b;
     }
 }
+
+export { abc as cdf };
